@@ -1,0 +1,26 @@
+ main {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+#primary {
+  flex-grow: 1;
+}
+ 
+.bg-signup {
+   background-image: url("/images/insidejobheader.png");
+   min-height: 400px;
+   background-size: cover;
+   background-repeat: no-repeat;
+}
+
+.signup-card {
+   background-color: #c4fbf6;
+}
+
+.text-header {
+   text-shadow: 2px 2px 4px rgb(25, 36, 32);
+   color: rgb(230, 240, 237);
+   background-color: rgba(184, 254, 254, 0.550);
+}

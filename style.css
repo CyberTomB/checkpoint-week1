@@ -38,3 +38,9 @@
    position: absolute;
 }
 }
+
+@media only screen and (max-width: 768px) {
+   #join-blurb {
+       display: none !important;
+   }
+}

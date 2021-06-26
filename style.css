@@ -16,11 +16,25 @@
 }
 
 .signup-card {
-   background-color: #c4fbf6;
+   background-color: rgb(198, 251, 247);
 }
 
 .text-header {
    text-shadow: 2px 2px 4px rgb(25, 36, 32);
    color: rgb(230, 240, 237);
    background-color: rgba(184, 254, 254, 0.550);
+}
+
+.benefits-card {
+   background-color: white;
+   box-shadow: 0 4px 8px 0 black;
+   transition: 0.3s;
+   border-radius: 5px;
+}
+
+@media only screen and (min-width: 768px){
+.spill {
+   bottom: -2rem;
+   position: absolute;
+}
 }

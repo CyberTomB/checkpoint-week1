@@ -1,4 +1,8 @@
- main {
+body {
+   font-family: 'Electrolize', sans-serif;
+}
+
+main {
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -22,6 +26,8 @@
 @media only screen and (max-width: 768px){
 #bg-form {
    background-color: rgba(255, 255, 255, 0.35);
+}
+#form-text {
    color: black !important;
 }
 }
@@ -43,9 +49,9 @@
    border-radius: 5px;
 }
 
-@media only screen and (min-width: 768px){
+@media only screen and (min-width: 992px){
 .spill {
-   bottom: -2rem;
+   bottom: -5.5rem;
    position: absolute;
 }
 }

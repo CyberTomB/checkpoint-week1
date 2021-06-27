@@ -8,6 +8,9 @@
    <link rel="stylesheet" href="//cdn.materialdesignicons.com/5.4.55/css/materialdesignicons.min.css">
    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
       integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=Electrolize&display=swap" rel="stylesheet">
    <link rel="stylesheet" href="bootstrap.min.css">
    <link rel="stylesheet" href="style.css">
    <title>Criminal Recruitment</title>
@@ -32,7 +35,7 @@
 </style>
 
 
-<body class="">
+<body class="debug">
    <header class="container sticky-top">
       <nav class="navbar navbar-expand navbar-light bg-primary row">
          <div class="nav navbar-nav col">
@@ -55,7 +58,7 @@
                <textarea id="signup-message" name="signup-message" placeholder="MESSAGE" rows="4"
                   class="form-control"></textarea>
                <div class="form-check col-12">
-                  <label class="form-check-label text-dark">
+                  <label class="form-check-label text-dark" id="form-text">
                      <input type="checkbox" class="form-check-input" name="" id="" value="checkedValue" checked>
                      I agree to be an epic criminal!
                   </label>
@@ -75,30 +78,24 @@
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium suscipit quod blanditiis molestias.
                Nulla facere quisquam similique, quidem voluptates illum?</p>
          </div>
-         <div class="col-md-4 order-1 order-md-2">
-            <div class="benefits-card text-dark px-3 py-1 spill row flex-column justify-space-between"
+         <div class="col-md-6 col-lg-5 order-1 order-md-2">
+            <div class="benefits-card text-light px-3 py-1 spill row flex-column justify-space-between"
                style="min-width: 300px;">
                <div class="col p-1">
-                  <i class="mdi mdi-wrench"></i>
-                  <small>Lorem ipsum dolor sit amet consectetur.</small>
+                  <p class="mdi mdi-vector-link"> Lorem ipsum dolor sit amet consectetur.</p>
                </div>
                <div class="col p-1">
-                  <i class="mdi mdi-wrench"></i>
-                  <small>Lorem ipsum dolor sit amet consectetur.</small>
+                  <p class="mdi mdi-currency-usd-circle-outline"> Lorem ipsum dolor sit amet consectetur.</p>
                </div>
                <div class="col p-1">
-                  <i class="mdi mdi-wrench"></i>
-                  <small>Lorem ipsum dolor sit amet consectetur.</small>
+                  <p class="mdi mdi-chip"> Lorem ipsum dolor sit amet consectetur.</p>
                </div>
                <div class="col p-1">
-                  <i class="mdi mdi-wrench"></i>
-                  <small>Lorem ipsum dolor sit amet consectetur.</small>
+                  <p class="mdi mdi-hammer-screwdriver"> Lorem ipsum dolor sit amet consectetur.</p>
                </div>
                <div class="col p-1">
-                  <i class="mdi mdi-wrench"></i>
-                  <small>Lorem ipsum dolor sit amet consectetur.</small>
+                  <p class="mdi mdi-pistol"> Lorem ipsum dolor sit amet consectetur.</p>
                </div>
-
             </div>
          </div>
       </div>
@@ -120,7 +117,7 @@
          </div>
       </div>
       <div class="row justify-content-around py-3 bg-dark align-items-center" id="reviews">
-         <div class="col-md-3 order-md-1 order-2">
+         <div class="col-lg-3 order-lg-1 order-2">
             <div class="card text-center my-2">
                <div class="card-body">
                   <h5 class="card-title">Special title treatment</h5>
@@ -130,14 +127,14 @@
                </div>
             </div>
          </div>
-         <div class="col-md-3 order-md-2 order-1">
+         <div class="col-lg-3 order-lg-2 order-1">
             <div class="card text-center my-2">
                <div class="card-header">
                   <i class="mdi mdi-star-box"></i>
                   <i class="mdi mdi-star-box" style="font-size: 16pt"></i>
                   <i class="mdi mdi-star-box"></i>
                </div>
-               <div class="card-body">
+               <div class="card-body p-4">
                   <h5 class="card-title">Special title treatment</h5>
                   <p class="card-text">
                      With supporting text below as a natural lead-in to additional content.
@@ -145,7 +142,7 @@
                </div>
             </div>
          </div>
-         <div class="col-md-3 order-3">
+         <div class="col-lg-3 order-3">
             <div class="card text-center my-2">
                <div class="card-body">
                   <h5 class="card-title">Special title treatment</h5>

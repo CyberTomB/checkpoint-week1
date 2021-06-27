@@ -15,6 +15,17 @@
    background-repeat: no-repeat;
 }
 
+#bg-form {
+   background-color: rgba(17, 28, 24, 0.75);
+}
+
+@media only screen and (max-width: 768px){
+#bg-form {
+   background-color: rgba(255, 255, 255, 0.35);
+   color: black !important;
+}
+}
+
 .signup-card {
    background-color: rgb(198, 251, 247);
 }
@@ -42,5 +53,11 @@
 @media only screen and (max-width: 768px) {
    #join-blurb {
        display: none !important;
+   }
+}
+
+@media only screen and (max-width: 768px) {
+   #signup-form {
+       background-image: url("images/briefcase.jpg");
    }
 }

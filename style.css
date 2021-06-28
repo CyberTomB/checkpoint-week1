@@ -13,7 +13,7 @@ main {
 }
  
 .bg-signup {
-   background-image: url("/images/insidejobheader.png");
+   background-image: url("images/insidejobheader.png");
    min-height: 400px;
    background-size: cover;
    background-repeat: no-repeat;
